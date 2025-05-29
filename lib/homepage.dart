@@ -44,14 +44,14 @@ drawer: Drawer(
       accountEmail: Text("a.22308051281110@cbtis128.edu.mx"),
       currentAccountPicture: GestureDetector(
         child: CircleAvatar(
+          backgroundColor: Colors.white,
                   child: Text(
-                    "AM",
+                    "MV",
                     style: TextStyle(
-                        color: Colors.pink,
+                        color: const Color.fromARGB(255, 183, 107, 255),
                         fontSize: 20.0,
                         fontWeight: FontWeight.bold),
                   ),
-                  backgroundColor: Colors.white,
                 ),
           ),
         ),
