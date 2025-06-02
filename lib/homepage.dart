@@ -44,21 +44,44 @@ drawer: Drawer(
       accountEmail: Text("a.22308051281110@cbtis128.edu.mx"),
       currentAccountPicture: GestureDetector(
         child: CircleAvatar(
-          backgroundColor: Colors.white,
-                  child: Text(
-                    "MV",
-                    style: TextStyle(
-                        color: const Color.fromARGB(255, 183, 107, 255),
-                        fontSize: 20.0,
-                        fontWeight: FontWeight.bold),
-                  ),
+          radius: 130,
+            backgroundColor: Colors.red,
+            child: CircleAvatar(
+              radius: 120,
+              backgroundImage: NetworkImage(
+                  'https://raw.githubusercontent.com/Miriam-Vargas-1110/imagenes-MVC/refs/heads/main/icon.jpg'),
+            ),
+          ),
                 ),
           ),
-        ),
+          InkWell(
+              onTap: (){},
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/home");},
+                leading: Icon(Icons.home, color: Colors.pink),
+                title: Text("Pagina Inicio"),
+              ),
+            ),
+            InkWell(
+              onTap: null,
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/Empleado");},
+                leading: Icon(Icons.person, color: Colors.black),
+                title: Text("Empleados"),
+              ),
+            ),
+            InkWell(
+              onTap: null,
+              child: ListTile(
+                onTap: (){Navigator.popAndPushNamed(context, "/Cliente");},
+                leading: Icon(Icons.person, color: Colors.black),
+                title: Text("Cliente"),
+              ),
+            ),
     ],
   ),
 ),
-
+    
     );
   }
 }
