@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/formularios/detalle_empleados.dart';
+import 'package:myapp/formulario/detalle_empleados.dart';
 
 class Empleado extends StatefulWidget {
   const Empleado({Key? key}) : super(key: key);

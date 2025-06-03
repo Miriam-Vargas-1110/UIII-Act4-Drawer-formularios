@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/formularios/detalle_cliente.dart'; // Asegúrate de tener este archivo creado
+import 'package:myapp/formulario/detalle_cliente.dart'; // Asegúrate de tener este archivo creado
 
 class Cliente extends StatefulWidget {
   const Cliente({Key? key}) : super(key: key);

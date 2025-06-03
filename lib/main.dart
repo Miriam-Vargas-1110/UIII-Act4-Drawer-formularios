@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/formularios/form_empleado.dart';
-import 'package:myapp/formularios/form_clientes.dart';
+import 'package:myapp/formulario/form_empleado.dart';
+import 'package:myapp/formulario/form_clientes.dart';
 import 'package:myapp/homepage.dart';
 
 void main() {
